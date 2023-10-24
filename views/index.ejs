@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+
+<h1><%= days %>, <%= month %></h1>
+
+<form action="/" method="post">
+  <input type="text" name="note" id="note" autocomplete="off" required/>
+  <input id="addNote" type="submit" value="+" />
+</form>
+
+<ul>
+<% for(i=0;i<notes.length;i++) { %>
+
+     <li id="notes">   
+    <input  type="checkbox" name="done" id="done"> 
+    <%= notes[i] %>
+  </li>
+<% } %>
+
+</ul>
+
+<%- include("partials/footer") %>

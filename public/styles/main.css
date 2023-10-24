@@ -1,0 +1,13 @@
+body {
+    background: #5C5470;
+    color: #FAF0E6;
+}
+
+/* Dynamic */
+.checked {
+    text-decoration: line-through;
+}
+
+.pass {
+    background-color: red;
+}

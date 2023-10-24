@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+
+<h1>Work Notes</h1>
+
+<form action="/work" method="post">
+  <input type="text" name="noteWork" id="note" autocomplete="off" required/>
+  <input type="submit" value="+" />
+</form>
+
+<ul>
+<% for(i=0;i<notesWork.length;i++) { %>
+
+
+        <input type="checkbox" name="done" id="done"> 
+        <li class="notes"><%= notesWork[i] %></li>
+
+<% } %>
+
+</ul>
+
+<%- include("partials/footer") %>

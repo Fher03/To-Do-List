@@ -1,0 +1,21 @@
+{
+  "name": "taskapp",
+  "version": "1.0.0",
+  "description": "This is an web app that allows you to create the user some tasks and eliminate them",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Task",
+    "toDoList"
+  ],
+  "author": "Fher03",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
